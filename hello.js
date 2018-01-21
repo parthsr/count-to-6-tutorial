@@ -1,4 +1,4 @@
-function print(){
+function print() {
   return ('HELLO ES6');
 }
 console.log(print());
