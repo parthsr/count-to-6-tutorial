@@ -1,10 +1,6 @@
 function testing(){
-  let name = 'parth';
-  console.log(name);
-  //   console.log(`Hello, ${name}!
-  // Your name lowercased is "${name.toLowerCase()}".`);
-  return (`Hello, ${name}!
-Your name lowercased is "${name.toLowerCase()}".`);
+  return (`Hello, ${arguments[0]}!
+Your name lowercased is "${arguments[0].toLowerCase()}".`);
 }
 
 module.exports = testing;
