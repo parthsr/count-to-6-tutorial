@@ -1,5 +1,5 @@
 function makeImportant(sentence, mark = sentence.length) {
-  return (sentence + Array(mark + 1).join('!'));
+  return (sentence + '!'.repeat(mark));
 }
 
 module.exports = makeImportant;
